@@ -59,6 +59,8 @@ img {
 .header-cont {
     align-items: center;
     display: flex;
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-navigation {
@@ -249,6 +251,17 @@ url(../images/hero/people-office.jpg);
     overflow: hidden;
 }
 
+.icon-strategy{
+background: #F4F4FD;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 8px;
+}
+
 /*===================/STRATEGY======================*/
 
 
@@ -369,6 +382,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     align-items: center;
     justify-content: center;
 }
+
 .team-svg {
     fill: #F4F4FD;
 }
@@ -463,12 +477,14 @@ margin: 0 auto;
     color: var(--iris);
     margin-bottom: 16px;
 }
-
+.foot-block {
+    margin-right: 120px;
+}
 .footer-cos-list {
     display: flex;
-    justify-content: center;
     gap: 16px;
-    list-style: none;
+    justify-content: center;
+
 }
 .foot-cos-item {
     width: 40px;
@@ -480,12 +496,15 @@ margin: 0 auto;
     background-color: #4D5AE5;
     border-radius: 50%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer-links:hover
-.footer-links:focus {
+.footer-links:focus,
+.footer-links:hover {
     background-color: #31D0AA;
 }
+
 .social-text {
 color: var(--white);
 font-weight: var(--font-weith-top);
@@ -495,9 +514,14 @@ letter-spacing: 0.02em;
 margin-bottom: 16px;
 text-align: center;
 }
-.footer-second-cont {
+.svg-foot {
+    fill: #F4F4FD;
+}
+
+.footer-container {
     display: flex;
-    margin-right: 120px;
+    justify-content: left;
+    align-items: baseline;
 }
 /*===================/FOOTER======================*/
 
